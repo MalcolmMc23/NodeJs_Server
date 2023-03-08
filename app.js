@@ -1,9 +1,13 @@
 const http = require("http");
 const fs = require("fs");
+const mime = require('mime');
+mime.getType("txt");
+mime.getExtension('text/plain')
 const port = 3000;
 
 const server = http.createServer(function (req, res) {
-    res.writeHead(200, { "Content-Type": "text/html" })
+    let mimeType = mime.getType('html')
+    res.writeHead(200, { "Content-Type": mimeType })
     fs.readFile("index.html", function (error, data) {
         if (error) {
             res.writeHead(404);
