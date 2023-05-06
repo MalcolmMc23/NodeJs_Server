@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_server",
+  "version": "1.0.0",
+  "description": "I followed a tutorial on how to make a server with NodeJs and now im trying to put the game I made in CS class on it.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalcolmMc23/NodeJs_Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalcolmMc23/NodeJs_Server/issues"
+  },
+  "homepage": "https://github.com/MalcolmMc23/NodeJs_Server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
